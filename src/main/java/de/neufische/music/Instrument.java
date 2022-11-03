@@ -2,7 +2,8 @@ package de.neufische.music;
 
 import java.util.Objects;
 
-public class Instrument {
+// abstract = Wir können keine konkreten Objekte davon erstellen
+public abstract class Instrument {
 
     // private = Damit die Variablen nur innerhalb der Klasse bearbeitbar sind
     // d.h. NICHT von außen zugreifbar
@@ -18,9 +19,8 @@ public class Instrument {
         this.brand = brand;
     }
 
-    public void play() {
-        System.out.println("Bum bum bum bam-bam-bam");
-    }
+    // HEY! Es GIBT diese Methode und alle Kinder müssen sie selbst implementieren
+    public abstract void play();
 
     // Getter & Setter - erlauben den öffentlichen Zugriff auf private Attribute
     public String getType() {
