@@ -14,12 +14,13 @@ public class Main {
         // und übergeben Parameter für das Objekt
         Instrument instrument
                 = new Instrument("Gitarre", "Ibanez");
-        instrument.play();
+//        instrument.play();
 
         // Achte = Guitar = groß geschrieben, weil Klasse gemeint
         Guitar guitar = new Guitar();
         guitar.play();
+        guitar.play("Smoke On The Water");
 
-        System.out.println("Ibanez - " + guitar.toString());
+        System.out.println("Ibanez - " + guitar);
     }
 }
