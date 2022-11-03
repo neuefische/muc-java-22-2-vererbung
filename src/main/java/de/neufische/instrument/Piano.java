@@ -1,4 +1,4 @@
-package de.neufische.music;
+package de.neufische.instrument;
 
 public class Piano extends Instrument {
 

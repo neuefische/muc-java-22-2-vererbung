@@ -1,9 +1,9 @@
-package de.neufische.music;
+package de.neufische.instrument;
 
 import java.util.Objects;
 
 // abstract = Wir können keine konkreten Objekte davon erstellen
-public abstract class Instrument {
+public abstract class Instrument implements Soundmaker{
 
     // private = Damit die Variablen nur innerhalb der Klasse bearbeitbar sind
     // d.h. NICHT von außen zugreifbar
