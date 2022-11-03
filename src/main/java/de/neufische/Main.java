@@ -78,7 +78,7 @@ public class Main {
 
         Instrument schecter
                 = new Guitar("Gitarre", "Schecter");
-        Soundmaker butterkeksDose = new HomeDrum();
+        Soundable butterkeksDose = new HomeDrum();
 
         RecordStudio recordStudio = new RecordStudio();
         recordStudio.record(schecter);
